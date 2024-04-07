@@ -17,9 +17,10 @@ Welcome to the Hangman Game, a word guessing game in a digital format. This proj
 ## Installation
 
 Clone this repository to your local machine.
+Navigate to the folder.
 
 ```bash
-git clone <repository-url>
+ 
 cd hangman-game
 ```
 
