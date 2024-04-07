@@ -44,7 +44,9 @@ i {
 }
 
 .game-over-container {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: #010101;
   width: 35%;
   text-align: center;
@@ -53,7 +55,7 @@ i {
   padding: 20px;
   font-size: 2rem;
   top: 50%;
-  right: 0;
+
   height: 96vh;
   transform: translate(0, -50%);
   border-radius: 3px;
@@ -80,12 +82,13 @@ justify-content: center;
 }
  
 .winner-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #010101;
   width: 100%;
-  height: 99%;
+  height: 100vh;
+ 
 }
 
 .img-winner {
@@ -99,4 +102,9 @@ margin-top: 10vh;
  width: 100%;
 }
 
- 
+.keyboard-help {
+
+  z-index: -1;
+text-align: left;
+padding-left: 16%;
+}

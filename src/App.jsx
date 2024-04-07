@@ -177,6 +177,8 @@ After a long wander among the ruins of the Parthenon, you discover a hidden door
 
       </div>
       
+
+      <p className='keyboard-help'>You can use keyboard or screen buttons. Just guess the word finally... Of course if you want to go out.</p>
     </div>
   );
 }
