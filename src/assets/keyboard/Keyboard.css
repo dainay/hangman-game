@@ -1,0 +1,24 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .keyboard-key {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .key-used {
+    color:rgb(26, 26, 26);
+    background-color: rgb(51, 51, 51);
+    cursor: not-allowed;
+  }
+
+  .key-used:hover {
+    border: red solid 1px;
+  }
